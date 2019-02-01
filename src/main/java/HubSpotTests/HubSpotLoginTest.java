@@ -35,6 +35,7 @@ public class HubSpotLoginTest {
 		String title = driver.getTitle();
 		System.out.println("Title is : " +title);
 		Assert.assertEquals(title, "HubSpot Login","Title is not equal");
+		System.out.println("Testing git hub");
 	}
 	
 	@Test
